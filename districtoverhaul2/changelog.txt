@@ -40,3 +40,7 @@ DistrictOverhaul 2.0.2:
 -pc_city dicisions fix
 -advanced colony ai
 -ai changes
+
+DistrictOverhaul 2.0.3
+
+-Added built in compatibility with EHOF and Planetary Diversity.
