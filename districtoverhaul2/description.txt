@@ -69,9 +69,21 @@ District Overhaul 2 rebalances some of the Origins in Stellaris. Sometimes this 
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1644767570]Ascendancy Ringworlds[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1604391033]The Zenith of Fallen Empires: Utopian Paradise[/url]
 [/list]
-If there is a mod where you think a compatibility is requiered (as it changes either the districts, or adds new planet classes), but isn't listed here, let me know in the [b][url=https://steamcommunity.com/workshop/filedetails/discussion/2026330346/1870622978440672506/]Compatibility Patches[/url][/b] thread.
-[u]Make sure to put this mod at the bottom of the mod list, especially after every mod that does modifications to districts.[/u]
 
 [b]Localisation Patches:[/b]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2028814598]Russian[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2040385051]Japanese[/url]
+
+[h1][b]Known bugs and frequently asked questions:[/b][/h1]
+
+[b]Bug:[/b] At the start of the game / after a while districts start disappearing.
+[b]Best solution:[/b] Make sure to put this mod at the bottom of the list in the Paradox Launcher (even below compatibility patches). If this doesn't work, please post a report in the bug report thread with as many informations as possible (mod load order,...).
+
+[b]Bug:[/b] A non-vanilla origin doesn't work properly (wrong buildings / districts / pop amounts).
+[b]Best solution:[/b] Post the mod in the compatibility patches thread and we will try to add a compatibility soon.
+
+[b]Question:[/b] My homeworld doesn't get any custom districts?
+[b]Awnser:[/b] This isn't a bug, as otherwise balancing and compatibilites would become much harder.
+
+[b]Question:[/b] My Ringworlds don't get e.g. the research or commercial districts?
+[b]Awnser:[/b] This is intentional as you get access to secondary districts on ringworlds which can grant you similar districts.
