@@ -44,3 +44,7 @@ DistrictOverhaul 2.0.2:
 DistrictOverhaul 2.0.3
 
 -Added built in compatibility with EHOF and Planetary Diversity.
+
+DistrictOverhaul 2.0.4
+
+-Corrected some minor bugs
