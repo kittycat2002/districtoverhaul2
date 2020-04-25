@@ -194,8 +194,12 @@ generate_start_buildings_and_districts = {
 				}
 			}
 			else = {
-				add_district = district_mining
-				add_district = district_mining
+        while = {
+  				count = 2
+  				add_district_and_planet_size_if_needed_effect = {
+  					district = district_mining
+  				}
+  			}
 				if = {
 					limit = {
 						owner = { has_origin = origin_default }
@@ -219,9 +223,8 @@ generate_start_buildings_and_districts = {
 					owner = { has_origin = origin_tree_of_life }
 				}
 				remove_district = district_mining
-				add_district = {
-					ignore_cap = yes
-					district_type = district_farming
+        add_district_and_planet_size_if_needed_effect = {
+  				district = district_farming
 				}
 			}
 
@@ -391,14 +394,19 @@ generate_start_buildings_and_districts = {
 				remove_district = district_mining
 				remove_district = district_mining
 
-				add_district = district_generator_uncapped
-				add_district = district_generator_uncapped
-				add_district = district_generator_uncapped
-				add_district = district_generator_uncapped
-				add_district = district_generator_uncapped
+				while = {
+  				count = 5
+  				add_district_and_planet_size_if_needed_effect = {
+  					district = district_generator_uncapped
+  				}
+  			}
 
-				add_district = district_mining_uncapped
-				add_district = district_mining_uncapped
+				while = {
+  				count = 2
+  				add_district_and_planet_size_if_needed_effect = {
+  					district = district_mining_uncapped
+  				}
+  			}
 
 				#Assimilators
 				if = {
@@ -410,8 +418,10 @@ generate_start_buildings_and_districts = {
 		# DO2 Origin addons
 		if = {
 			limit = { owner = { has_origin = origin_default } }
-			add_district = district_generator
 			remove_district = district_farming
+      add_district_and_planet_size_if_needed_effect = {
+        district = district_generator
+      }
 		}
 		if = {
 			limit = { owner = { has_origin = origin_mechanists } }
@@ -419,9 +429,15 @@ generate_start_buildings_and_districts = {
 		}
 		if = {
 			limit = { owner = { has_origin = origin_tree_of_life } }
-			add_district = district_generator
-			add_district = district_generator
-			add_district = district_mining
+      while = {
+        count = 2
+        add_district_and_planet_size_if_needed_effect = {
+          district = district_generator
+        }
+      }
+      add_district_and_planet_size_if_needed_effect = {
+        district = district_mining
+      }
 		}
 		if = {
 			limit = { owner = { has_origin = origin_remnants } }
@@ -430,14 +446,20 @@ generate_start_buildings_and_districts = {
 			remove_district = district_city
 			add_deposit = d_ancient_structure
 			add_deposit = d_precurser_city
-			add_district = district_archeology
-			add_district = district_ascended_housing
+      add_district_and_planet_size_if_needed_effect = {
+        district_archeology
+      }
+      add_district_and_planet_size_if_needed_effect = {
+        district = district_ascended_housing
+      }
 			# Custom
 		}
 	}
 	if = {
 		limit = { owner = { has_origin = origin_shattered_ring } }
-		add_district = district_rw_farming
+    add_district_and_planet_size_if_needed_effect = {
+      district = district_rw_farming
+    }
 		add_deposit = d_arcane_generator
 		add_deposit = d_decrepit_tunnels_1
 		add_deposit = d_decrepit_tunnels_2
@@ -477,7 +499,9 @@ generate_start_buildings_and_districts = {
 				}
 			}
 			remove_district = district_rw_farming
-			add_district = district_rw_generator
+      add_district_and_planet_size_if_needed_effect = {
+        district = district_rw_generator
+      }
 		}
 
 		if = {
@@ -531,7 +555,9 @@ generate_start_buildings_and_districts = {
 		if = {
 			limit = { owner = { is_machine_empire = yes } }
 			remove_district = district_rw_farming
-			add_district = district_rw_generator
+      add_district_and_planet_size_if_needed_effect = {
+        district = district_rw_generator
+      }
 
 			# 6 jobs
 			add_building = building_machine_capital
@@ -551,7 +577,9 @@ generate_start_buildings_and_districts = {
 			#Assimilators
 			if = {
 				limit = { owner = { has_civic = civic_machine_assimilator } }
-				add_district = district_rw_farming
+        add_district_and_planet_size_if_needed_effect = {
+          district = district_rw_farming
+        }
 				add_deposit = d_segment_rubble_1
 				add_deposit = d_segment_rubble_1
 				add_deposit = d_segment_rubble_2
@@ -562,7 +590,9 @@ generate_start_buildings_and_districts = {
 			if = {
 				limit = { owner = { has_civic = civic_machine_servitor } }
 				add_building = building_organic_sanctuary
-				add_district = district_rw_farming
+        add_district_and_planet_size_if_needed_effect = {
+          district = district_rw_farming
+        }
 				add_deposit = d_segment_rubble_1
 				add_deposit = d_segment_rubble_1
 				add_deposit = d_segment_rubble_2

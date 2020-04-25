@@ -1,4 +1,4 @@
-version="2.0.3"
+version="2.0.4"
 tags={
 	"Balance"
 	"Economy"
@@ -10,5 +10,5 @@ tags={
 }
 name=" District Overhaul 2"
 picture="thumbnail.png"
-supported_version="2.6.*"
+supported_version="2.6.3"
 remote_file_id="2026330346"

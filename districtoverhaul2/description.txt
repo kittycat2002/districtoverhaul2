@@ -1,4 +1,4 @@
-[h1][b]District Overhaul 2 for Stellaris Version 2.6.*[/b][/h1]
+[h1][b]District Overhaul 2 for Stellaris Version 2.6.3[/b][/h1]
 [h1][b]Make sure to put this mod at the bottom of the list in the Paradox Launcher.[/b][/h1]
 
 [b]If your resolution is lower than 1080p, you can use any other UI mod that allows you to have more than 4 districts.[/b]
