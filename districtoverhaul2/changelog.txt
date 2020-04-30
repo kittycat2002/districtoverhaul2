@@ -48,3 +48,7 @@ DistrictOverhaul 2.0.3
 DistrictOverhaul 2.0.4
 
 -Corrected some minor bugs
+
+DistrictOverhaul 2.0.5
+
+-Updated for new PD update
