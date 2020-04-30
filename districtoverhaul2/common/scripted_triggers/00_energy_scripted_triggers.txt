@@ -10,17 +10,19 @@ has_district_generator = {
 has_district_generator_uncapped = {
 	OR = {
 		is_planet_class = pc_hive
+    is_planet_class = pc_pdhive1
+    is_planet_class = pc_pdhive2
 		is_planet_class = pc_machine
 		is_planet_class = pc_shrouded_pg
 	}
 }
 
 has_district_wind_turbines = {
-	has_planet_flag = do_wind_turbines 
+	has_planet_flag = do_wind_turbines
 }
 
 has_district_geothermal_generator = {
-	has_planet_flag = do_geothermal_generator 
+	has_planet_flag = do_geothermal_generator
 }
 
 has_district_solar_generator = {
@@ -28,5 +30,5 @@ has_district_solar_generator = {
 }
 
 has_district_tidal_generator = {
-	has_planet_flag = do_tidal_generator 
+	has_planet_flag = do_tidal_generator
 }

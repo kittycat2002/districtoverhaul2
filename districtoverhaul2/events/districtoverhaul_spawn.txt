@@ -15,13 +15,13 @@ country_event = {
 		every_planet = {
 			limit = { is_planet_class = pc_relic
 				is_homeworld = no }
-			set_planet_flag = do_ascended_housing 
-			set_planet_flag = do_archeology 
+			set_planet_flag = do_ascended_housing
+			set_planet_flag = do_archeology
 		}
 		every_planet = {
-			limit = { 
+			limit = {
 				is_planet_class = pc_relic
-				is_homeworld = yes 
+				is_homeworld = yes
 				NOT = { has_deposit = d_ancient_structure }
 				NOT = { has_deposit = d_precurser_city }
 			}
@@ -33,14 +33,14 @@ country_event = {
 				is_homeworld = no
 				is_planet_class = pc_crystal
 			}
-			set_planet_flag = do_crystal_mines 
+			set_planet_flag = do_crystal_mines
 		}
 		every_planet = {
 			limit = {
 				is_homeworld = no
 				is_planet_class = pc_floating
 			}
-			set_planet_flag = do_research_complex 
+			set_planet_flag = do_research_complex
 		}
 		every_planet = {
 			limit = {
@@ -56,14 +56,14 @@ country_event = {
 			limit = {
 				is_homeworld = no
 				OR = {
-					is_planet_class = pc_aquatic 
-					is_planet_class = pc_aquatichot 
-					is_planet_class = pc_aquaticcold 
-					is_planet_class = pc_aquaticcity 
+					is_planet_class = pc_aquatic
+					is_planet_class = pc_aquatichot
+					is_planet_class = pc_aquaticcold
+					is_planet_class = pc_aquaticcity
 				}
 			}
-			set_planet_flag = do_tidal_generator 
-			set_planet_flag = do_ocean_farming 
+			set_planet_flag = do_tidal_generator
+			set_planet_flag = do_ocean_farming
 			set_planet_flag = do_ocean_housing
 		}
 #####################################
@@ -78,8 +78,8 @@ country_event = {
 				NOT = { has_global_flag = wind_turbines_disabled }
 			}
 			random_list = {
-				70 = { 
-					set_planet_flag = do_wind_turbines 
+				70 = {
+					set_planet_flag = do_wind_turbines
 				}
 				30 = { }
 			}
@@ -93,8 +93,8 @@ country_event = {
 				NOT = { has_global_flag = geothermal_generator_disabled }
 			}
 			random_list = {
-				70 = { 
-					set_planet_flag = do_geothermal_generator 
+				70 = {
+					set_planet_flag = do_geothermal_generator
 				}
 				30 = { }
 			}
@@ -108,7 +108,7 @@ country_event = {
 				NOT = { has_global_flag = solar_generator_disabled }
 			}
 			random_list = {
-				70 = { 
+				70 = {
 					set_planet_flag = do_solar_generator
 				}
 				30 = { }
@@ -123,8 +123,8 @@ country_event = {
 				NOT = { has_global_flag = tidal_generator_disabled }
 			}
 			random_list = {
-				70 = { 
-					set_planet_flag = do_tidal_generator 
+				70 = {
+					set_planet_flag = do_tidal_generator
 				}
 				30 = { }
 			}
@@ -138,8 +138,8 @@ country_event = {
 				NOT = { has_global_flag = wind_turbines_disabled }
 			}
 			random_list = {
-				50 = { 
-					set_planet_flag = do_wind_turbines 
+				50 = {
+					set_planet_flag = do_wind_turbines
 				}
 				50 = { }
 			}
@@ -153,8 +153,8 @@ country_event = {
 				NOT = { has_global_flag = geothermal_generator_disabled }
 			}
 			random_list = {
-				50 = { 
-					set_planet_flag = do_geothermal_generator 
+				50 = {
+					set_planet_flag = do_geothermal_generator
 				}
 				50 = { }
 			}
@@ -168,7 +168,7 @@ country_event = {
 				NOT = { has_global_flag = solar_generator_disabled }
 			}
 			random_list = {
-				50 = { 
+				50 = {
 					set_planet_flag = do_solar_generator
 				}
 				50 = { }
@@ -183,8 +183,8 @@ country_event = {
 				NOT = { has_global_flag = tidal_generator_disabled }
 			}
 			random_list = {
-				50 = { 
-					set_planet_flag = do_tidal_generator 
+				50 = {
+					set_planet_flag = do_tidal_generator
 				}
 				50 = { }
 			}
@@ -198,8 +198,8 @@ country_event = {
 				NOT = { has_global_flag = wind_turbines_disabled }
 			}
 			random_list = {
-				20 = { 
-					set_planet_flag = do_wind_turbines 
+				20 = {
+					set_planet_flag = do_wind_turbines
 				}
 				80 = { }
 			}
@@ -213,8 +213,8 @@ country_event = {
 				NOT = { has_global_flag = geothermal_generator_disabled }
 			}
 			random_list = {
-				20 = { 
-					set_planet_flag = do_geothermal_generator 
+				20 = {
+					set_planet_flag = do_geothermal_generator
 				}
 				80 = { }
 			}
@@ -228,7 +228,7 @@ country_event = {
 				NOT = { has_global_flag = solar_generator_disabled }
 			}
 			random_list = {
-				20 = { 
+				20 = {
 					set_planet_flag = do_solar_generator
 				}
 				80 = { }
@@ -243,8 +243,8 @@ country_event = {
 				NOT = { has_global_flag = tidal_generator_disabled }
 			}
 			random_list = {
-				20 = { 
-					set_planet_flag = do_tidal_generator 
+				20 = {
+					set_planet_flag = do_tidal_generator
 				}
 				80 = { }
 			}
@@ -261,7 +261,7 @@ country_event = {
 				NOT = { has_global_flag = cheap_mining_disabled }
 			}
 			random_list = {
-				70 = { 
+				70 = {
 					set_planet_flag = do_cheap_mining
 				}
 				30 = { }
@@ -276,7 +276,7 @@ country_event = {
 				NOT = { has_global_flag = secure_mining_disabled }
 			}
 			random_list = {
-				70 = { 
+				70 = {
 					set_planet_flag = do_secure_mining
 				}
 				30 = { }
@@ -291,7 +291,7 @@ country_event = {
 				NOT = { has_global_flag = surface_mining_disabled }
 			}
 			random_list = {
-				70 = { 
+				70 = {
 					set_planet_flag = do_surface_mining
 				}
 				30 = { }
@@ -306,7 +306,7 @@ country_event = {
 				NOT = { has_global_flag = cheap_mining_disabled }
 			}
 			random_list = {
-				20 = { 
+				20 = {
 					set_planet_flag = do_cheap_mining
 				}
 				80 = { }
@@ -321,7 +321,7 @@ country_event = {
 				NOT = { has_global_flag = secure_mining_disabled }
 			}
 			random_list = {
-				20 = { 
+				20 = {
 					set_planet_flag = do_secure_mining
 				}
 				80 = { }
@@ -336,7 +336,7 @@ country_event = {
 				NOT = { has_global_flag = surface_mining_disabled }
 			}
 			random_list = {
-				20 = { 
+				20 = {
 					set_planet_flag = do_surface_mining
 				}
 				80 = { }
@@ -354,7 +354,7 @@ country_event = {
 				NOT = { has_global_flag = exotic_farm_disabled }
 			}
 			random_list = {
-				70 = { 
+				70 = {
 					set_planet_flag = do_exotic_farms
 				}
 				30 = { }
@@ -369,8 +369,8 @@ country_event = {
 				NOT = { has_global_flag = ocean_farm_disabled }
 			}
 			random_list = {
-				70 = { 
-					set_planet_flag = do_ocean_farming 
+				70 = {
+					set_planet_flag = do_ocean_farming
 				}
 				30 = { }
 			}
@@ -384,7 +384,7 @@ country_event = {
 				NOT = { has_global_flag = nature_farms_disabled }
 			}
 			random_list = {
-				70 = { 
+				70 = {
 					set_planet_flag = do_nature_farms
 				}
 				30 = { }
@@ -399,7 +399,7 @@ country_event = {
 				NOT = { has_global_flag = hydroponic_bay_disabled }
 			}
 			random_list = {
-				70 = { 
+				70 = {
 					set_planet_flag = do_hydropionic_bay
 				}
 				30 = { }
@@ -414,7 +414,7 @@ country_event = {
 				NOT = { has_global_flag = exotic_farm_disabled }
 			}
 			random_list = {
-				50 = { 
+				50 = {
 					set_planet_flag = do_exotic_farms
 				}
 				50 = { }
@@ -429,8 +429,8 @@ country_event = {
 				NOT = { has_global_flag = ocean_farm_disabled }
 			}
 			random_list = {
-				50 = { 
-					set_planet_flag = do_ocean_farming 
+				50 = {
+					set_planet_flag = do_ocean_farming
 				}
 				50 = { }
 			}
@@ -444,8 +444,8 @@ country_event = {
 				NOT = { has_global_flag = nature_farms_disabled }
 			}
 			random_list = {
-				50 = { 
-					set_planet_flag = do_nature_farms 
+				50 = {
+					set_planet_flag = do_nature_farms
 				}
 				50 = { }
 			}
@@ -459,7 +459,7 @@ country_event = {
 				NOT = { has_global_flag = hydroponic_bay_disabled }
 			}
 			random_list = {
-				50 = { 
+				50 = {
 					set_planet_flag = do_hydropionic_bay
 				}
 				50 = { }
@@ -474,7 +474,7 @@ country_event = {
 				NOT = { has_global_flag = exotic_farm_disabled }
 			}
 			random_list = {
-				20 = { 
+				20 = {
 					set_planet_flag = do_exotic_farms
 				}
 				80 = { }
@@ -489,8 +489,8 @@ country_event = {
 				NOT = { has_global_flag = ocean_farm_disabled }
 			}
 			random_list = {
-				20 = { 
-					set_planet_flag = do_ocean_farming 
+				20 = {
+					set_planet_flag = do_ocean_farming
 				}
 				80 = { }
 			}
@@ -504,8 +504,8 @@ country_event = {
 				NOT = { has_global_flag = nature_farms_disabled }
 			}
 			random_list = {
-				20 = { 
-					set_planet_flag = do_nature_farms 
+				20 = {
+					set_planet_flag = do_nature_farms
 				}
 				80 = { }
 			}
@@ -519,7 +519,7 @@ country_event = {
 				NOT = { has_global_flag = hydroponic_bay_disabled }
 			}
 			random_list = {
-				20 = { 
+				20 = {
 					set_planet_flag = do_hydropionic_bay
 				}
 				80 = { }
@@ -539,8 +539,8 @@ country_event = {
 				NOT = { has_global_flag = ascended_housing_disabled }
 			}
 			random_list = {
-				100 = { 
-					set_planet_flag = do_ascended_housing 
+				100 = {
+					set_planet_flag = do_ascended_housing
 				}
 				0 = { }
 			}
@@ -554,8 +554,8 @@ country_event = {
 				NOT = { has_global_flag = ascended_housing_disabled }
 			}
 			random_list = {
-				60 = { 
-					set_planet_flag = do_ascended_housing 
+				60 = {
+					set_planet_flag = do_ascended_housing
 				}
 				40 = { }
 			}
@@ -569,8 +569,8 @@ country_event = {
 				NOT = { has_global_flag = ascended_housing_disabled }
 			}
 			random_list = {
-				40 = { 
-					set_planet_flag = do_ascended_housing 
+				40 = {
+					set_planet_flag = do_ascended_housing
 				}
 				60 = { }
 			}
@@ -584,8 +584,8 @@ country_event = {
 				NOT = { has_global_flag = ascended_housing_disabled }
 			}
 			random_list = {
-				25 = { 
-					set_planet_flag = do_ascended_housing 
+				25 = {
+					set_planet_flag = do_ascended_housing
 				}
 				75 = { }
 			}
@@ -599,8 +599,8 @@ country_event = {
 				NOT = { has_global_flag = ascended_housing_disabled }
 			}
 			random_list = {
-				10 = { 
-					set_planet_flag = do_ascended_housing 
+				10 = {
+					set_planet_flag = do_ascended_housing
 				}
 				90 = { }
 			}
@@ -615,7 +615,7 @@ country_event = {
 				NOT = { has_global_flag = ocean_housing_disabled }
 			}
 			random_list = {
-				100 = { 
+				100 = {
 					set_planet_flag = do_ocean_housing
 				}
 				0 = { }
@@ -631,7 +631,7 @@ country_event = {
 				NOT = { has_global_flag = ocean_housing_disabled }
 			}
 			random_list = {
-				50 = { 
+				50 = {
 					set_planet_flag = do_ocean_housing
 				}
 				50 = { }
@@ -647,7 +647,7 @@ country_event = {
 				NOT = { has_global_flag = ocean_housing_disabled }
 			}
 			random_list = {
-				10 = { 
+				10 = {
 					set_planet_flag = do_ocean_housing
 				}
 				90 = { }
@@ -667,8 +667,8 @@ country_event = {
 				NOT = { has_global_flag = chemistry_industry_disabled }
 			}
 			random_list = {
-				60 = { 
-					set_planet_flag = do_chemistry_industry 
+				60 = {
+					set_planet_flag = do_chemistry_industry
 				}
 				40 = { }
 			}
@@ -687,8 +687,8 @@ country_event = {
 				NOT = { has_global_flag = chemistry_industry_disabled }
 			}
 			random_list = {
-				25 = { 
-					set_planet_flag = do_chemistry_industry 
+				25 = {
+					set_planet_flag = do_chemistry_industry
 				}
 				75 = { }
 			}
@@ -706,8 +706,8 @@ country_event = {
 				NOT = { has_global_flag = chemistry_industry_disabled }
 			}
 			random_list = {
-				10 = { 
-					set_planet_flag = do_chemistry_industry 
+				10 = {
+					set_planet_flag = do_chemistry_industry
 				}
 				90 = { }
 			}
@@ -726,7 +726,7 @@ country_event = {
 				NOT = { has_global_flag = gas_refinery_disabled }
 			}
 			random_list = {
-				60 = { 
+				60 = {
 					set_planet_flag = do_gas_refinery
 				}
 				40 = { }
@@ -746,8 +746,8 @@ country_event = {
 				NOT = { has_global_flag = gas_refinery_disabled }
 			}
 			random_list = {
-				25 = { 
-					set_planet_flag = do_gas_refinery 
+				25 = {
+					set_planet_flag = do_gas_refinery
 				}
 				75 = { }
 			}
@@ -765,8 +765,8 @@ country_event = {
 				NOT = { has_global_flag = gas_refinery_disabled }
 			}
 			random_list = {
-				10 = { 
-					set_planet_flag = do_gas_refinery 
+				10 = {
+					set_planet_flag = do_gas_refinery
 				}
 				90 = { }
 			}
@@ -782,8 +782,8 @@ country_event = {
 				NOT = { has_global_flag = crystal_mines_disabled }
 			}
 			random_list = {
-				75 = { 
-					set_planet_flag = do_crystal_mines 
+				75 = {
+					set_planet_flag = do_crystal_mines
 				}
 				25 = { }
 			}
@@ -798,8 +798,8 @@ country_event = {
 				NOT = { has_global_flag = crystal_mines_disabled }
 			}
 			random_list = {
-				25 = { 
-					set_planet_flag = do_crystal_mines 
+				25 = {
+					set_planet_flag = do_crystal_mines
 				}
 				75 = { }
 			}
@@ -813,8 +813,8 @@ country_event = {
 				NOT = { has_global_flag = crystal_mines_disabled }
 			}
 			random_list = {
-				10 = { 
-					set_planet_flag = do_crystal_mines 
+				10 = {
+					set_planet_flag = do_crystal_mines
 				}
 				90 = { }
 			}
@@ -830,8 +830,8 @@ country_event = {
 				NOT = { has_global_flag = nature_reserve_disabled }
 			}
 			random_list = {
-				75 = { 
-					set_planet_flag = do_nature_reserve 
+				75 = {
+					set_planet_flag = do_nature_reserve
 				}
 				25 = { }
 			}
@@ -846,8 +846,8 @@ country_event = {
 				NOT = { has_global_flag = nature_reserve_disabled }
 			}
 			random_list = {
-				25 = { 
-					set_planet_flag = do_nature_reserve 
+				25 = {
+					set_planet_flag = do_nature_reserve
 				}
 				75 = { }
 			}
@@ -861,8 +861,8 @@ country_event = {
 				NOT = { has_global_flag = nature_reserve_disabled }
 			}
 			random_list = {
-				10 = { 
-					set_planet_flag = do_nature_reserve 
+				10 = {
+					set_planet_flag = do_nature_reserve
 				}
 				90 = { }
 			}
@@ -877,8 +877,8 @@ country_event = {
 				NOT = { has_global_flag = research_complex_disabled }
 			}
 			random_list = {
-				100 = { 
-					set_planet_flag = do_research_complex 
+				100 = {
+					set_planet_flag = do_research_complex
 				}
 				0 = { }
 			}
@@ -892,8 +892,8 @@ country_event = {
 				NOT = { has_global_flag = research_complex_disabled }
 			}
 			random_list = {
-				75 = { 
-					set_planet_flag = do_research_complex 
+				75 = {
+					set_planet_flag = do_research_complex
 				}
 				25 = { }
 			}
@@ -907,8 +907,8 @@ country_event = {
 				NOT = { has_global_flag = research_complex_disabled }
 			}
 			random_list = {
-				50 = { 
-					set_planet_flag = do_research_complex 
+				50 = {
+					set_planet_flag = do_research_complex
 				}
 				50 = { }
 			}
@@ -922,8 +922,8 @@ country_event = {
 				NOT = { has_global_flag = research_complex_disabled }
 			}
 			random_list = {
-				25 = { 
-					set_planet_flag = do_research_complex 
+				25 = {
+					set_planet_flag = do_research_complex
 				}
 				75 = { }
 			}
@@ -937,8 +937,8 @@ country_event = {
 				NOT = { has_global_flag = research_complex_disabled }
 			}
 			random_list = {
-				10 = { 
-					set_planet_flag = do_research_complex 
+				10 = {
+					set_planet_flag = do_research_complex
 				}
 				90 = { }
 			}
@@ -953,8 +953,8 @@ country_event = {
 				NOT = { has_global_flag = assembly_disabled }
 			}
 			random_list = {
-				100 = { 
-					set_planet_flag = do_assembly 
+				100 = {
+					set_planet_flag = do_assembly
 				}
 				0 = { }
 			}
@@ -968,8 +968,8 @@ country_event = {
 				NOT = { has_global_flag = assembly_disabled }
 			}
 			random_list = {
-				75 = { 
-					set_planet_flag = do_assembly 
+				75 = {
+					set_planet_flag = do_assembly
 				}
 				25 = { }
 			}
@@ -983,8 +983,8 @@ country_event = {
 				NOT = { has_global_flag = assembly_disabled }
 			}
 			random_list = {
-				50 = { 
-					set_planet_flag = do_assembly 
+				50 = {
+					set_planet_flag = do_assembly
 				}
 				50 = { }
 			}
@@ -998,8 +998,8 @@ country_event = {
 				NOT = { has_global_flag = assembly_disabled }
 			}
 			random_list = {
-				25 = { 
-					set_planet_flag = do_assembly 
+				25 = {
+					set_planet_flag = do_assembly
 				}
 				75 = { }
 			}
@@ -1013,8 +1013,8 @@ country_event = {
 				NOT = { has_global_flag = assembly_disabled }
 			}
 			random_list = {
-				10 = { 
-					set_planet_flag = do_assembly 
+				10 = {
+					set_planet_flag = do_assembly
 				}
 				90 = { }
 			}
@@ -1029,8 +1029,8 @@ country_event = {
 				NOT = { has_global_flag = tourism_disabled }
 			}
 			random_list = {
-				100 = { 
-					set_planet_flag = do_tourism 
+				100 = {
+					set_planet_flag = do_tourism
 				}
 				0 = { }
 			}
@@ -1044,8 +1044,8 @@ country_event = {
 				NOT = { has_global_flag = tourism_disabled }
 			}
 			random_list = {
-				75 = { 
-					set_planet_flag = do_tourism 
+				75 = {
+					set_planet_flag = do_tourism
 				}
 				25 = { }
 			}
@@ -1059,8 +1059,8 @@ country_event = {
 				NOT = { has_global_flag = tourism_disabled }
 			}
 			random_list = {
-				50 = { 
-					set_planet_flag = do_tourism 
+				50 = {
+					set_planet_flag = do_tourism
 				}
 				50 = { }
 			}
@@ -1074,8 +1074,8 @@ country_event = {
 				NOT = { has_global_flag = tourism_disabled }
 			}
 			random_list = {
-				25 = { 
-					set_planet_flag = do_tourism 
+				25 = {
+					set_planet_flag = do_tourism
 				}
 				75 = { }
 			}
@@ -1089,8 +1089,8 @@ country_event = {
 				NOT = { has_global_flag = tourism_disabled }
 			}
 			random_list = {
-				10 = { 
-					set_planet_flag = do_tourism 
+				10 = {
+					set_planet_flag = do_tourism
 				}
 				90 = { }
 			}
@@ -1106,8 +1106,8 @@ country_event = {
 				NOT = { has_global_flag = gardens_disabled }
 			}
 			random_list = {
-				75 = { 
-					set_planet_flag = do_gardens 
+				75 = {
+					set_planet_flag = do_gardens
 				}
 				25 = { }
 			}
@@ -1122,8 +1122,8 @@ country_event = {
 				NOT = { has_global_flag = gardens_disabled }
 			}
 			random_list = {
-				25 = { 
-					set_planet_flag = do_gardens 
+				25 = {
+					set_planet_flag = do_gardens
 				}
 				75 = { }
 			}
@@ -1137,8 +1137,8 @@ country_event = {
 				NOT = { has_global_flag = gardens_disabled }
 			}
 			random_list = {
-				10 = { 
-					set_planet_flag = do_gardens 
+				10 = {
+					set_planet_flag = do_gardens
 				}
 				90 = { }
 			}
@@ -1154,8 +1154,8 @@ country_event = {
 				NOT = { has_global_flag = ecogardens_disabled }
 			}
 			random_list = {
-				100 = { 
-					set_planet_flag = do_gardens 
+				100 = {
+					set_planet_flag = do_gardens
 				}
 				0 = { }
 			}
@@ -1170,8 +1170,8 @@ country_event = {
 				NOT = { has_global_flag = ecogardens_disabled }
 			}
 			random_list = {
-				75 = { 
-					set_planet_flag = do_ecogardens 
+				75 = {
+					set_planet_flag = do_ecogardens
 				}
 				25 = { }
 			}
@@ -1186,8 +1186,8 @@ country_event = {
 				NOT = { has_global_flag = ecogardens_disabled }
 			}
 			random_list = {
-				50 = { 
-					set_planet_flag = do_ecogardens 
+				50 = {
+					set_planet_flag = do_ecogardens
 				}
 				50 = { }
 			}
@@ -1202,8 +1202,8 @@ country_event = {
 				NOT = { has_global_flag = ecogardens_disabled }
 			}
 			random_list = {
-				25 = { 
-					set_planet_flag = do_ecogardens 
+				25 = {
+					set_planet_flag = do_ecogardens
 				}
 				75 = { }
 			}
@@ -1218,8 +1218,8 @@ country_event = {
 				NOT = { has_global_flag = ecogardens_disabled }
 			}
 			random_list = {
-				10 = { 
-					set_planet_flag = do_ecogardens 
+				10 = {
+					set_planet_flag = do_ecogardens
 				}
 				90 = { }
 			}
@@ -1234,8 +1234,8 @@ country_event = {
 				NOT = { has_global_flag = archeology_disabled }
 			}
 			random_list = {
-				100 = { 
-					set_planet_flag = do_archeology 
+				100 = {
+					set_planet_flag = do_archeology
 				}
 				0 = { }
 			}
@@ -1249,8 +1249,8 @@ country_event = {
 				NOT = { has_global_flag = archeology_disabled }
 			}
 			random_list = {
-				75 = { 
-					set_planet_flag = do_archeology 
+				75 = {
+					set_planet_flag = do_archeology
 				}
 				25 = { }
 			}
@@ -1264,8 +1264,8 @@ country_event = {
 				NOT = { has_global_flag = archeology_disabled }
 			}
 			random_list = {
-				50 = { 
-					set_planet_flag = do_archeology 
+				50 = {
+					set_planet_flag = do_archeology
 				}
 				50 = { }
 			}
@@ -1279,8 +1279,8 @@ country_event = {
 				NOT = { has_global_flag = archeology_disabled }
 			}
 			random_list = {
-				25 = { 
-					set_planet_flag = do_archeology 
+				25 = {
+					set_planet_flag = do_archeology
 				}
 				75 = { }
 			}
@@ -1294,8 +1294,8 @@ country_event = {
 				NOT = { has_global_flag = archeology_disabled }
 			}
 			random_list = {
-				10 = { 
-					set_planet_flag = do_archeology 
+				10 = {
+					set_planet_flag = do_archeology
 				}
 				90 = { }
 			}
@@ -1304,15 +1304,15 @@ country_event = {
 # Deposit System #
 ##################
 		every_planet = {
-			limit = { 
+			limit = {
 				can_have_random_districts = yes
-				is_homeworld = no 
+				is_homeworld = no
 			}
 			do_spawn_deposits = yes
 			do_remove_all_planetary_deposits = yes
 		}
 		every_planet = {
-			limit = { 
+			limit = {
 				can_have_random_districts = yes
 				is_homeworld = yes
 			}
@@ -1328,12 +1328,21 @@ country_event = {
 	fire_only_once = yes
 	immediate = {
 		every_planet = {
-			limit = { 
+			limit = {
 				can_have_random_districts = yes
-				is_homeworld = no 
+				is_homeworld = no
 			}
 			do_remove_all_planetary_deposits = yes
 			do_spawn_deposits = yes
 		}
 	}
+}
+
+planet_event = {
+	id = districtoverhaulspawn.03
+	hide_window = yes
+	is_triggered_only = yes
+  immediate = {
+    reroll_districts = yes
+  }
 }

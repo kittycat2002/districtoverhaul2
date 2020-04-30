@@ -8,6 +8,8 @@ has_district_mining = {
 has_district_mining_uncapped = {
 	OR = {
 		is_planet_class = pc_hive
+    is_planet_class = pc_pdhive1
+    is_planet_class = pc_pdhive2
 		is_planet_class = pc_machine
 		is_planet_class = pc_shrouded_pg
 	}

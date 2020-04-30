@@ -73,29 +73,9 @@ decision_arcology_project = {
 		custom_tooltip = decision_arcology_project_effects
 		hidden_effect = {
 			#Clear Deposits
-			do_remove_energy_deposits = yes
-			do_remove_mineral_deposits
-			do_remove_food_deposits
-			do_remove_wind_deposits
-			do_remove_geothermal_deposits
-			do_remove_solar_deposits
-			do_remove_tidal_deposits
-			do_remove_secure_mining_deposits
-			do_remove_surface_mining_deposits
-			do_remove_cheap_mining_deposits
-			do_remove_nature_farming_deposits
-			do_remove_exotic_farming_deposits
-			do_remove_ocean_farming_deposits
-			do_remove_chemistry_deposits
-			do_remove_gas_deposits
-			do_remove_crystal_deposits
-			do_remove_nature_reserve_deposits
-			do_remove_tourism_deposits
-			do_remove_research_complex_deposits
-			do_remove_tibanna_deposits
-			do_remove_kyber_deposits
 			#PC Effects
 			change_pc = pc_city
+      reroll_districts = yes
 			set_planet_entity = {
 				entity = "city_planet_entity"
 				graphical_culture = owner
@@ -166,29 +146,9 @@ decision_arcology_project_relic = {
 		custom_tooltip = decision_arcology_project_effects
 		hidden_effect = {
 			#Clear Deposits
-			do_remove_energy_deposits = yes
-			do_remove_mineral_deposits
-			do_remove_food_deposits
-			do_remove_wind_deposits
-			do_remove_geothermal_deposits
-			do_remove_solar_deposits
-			do_remove_tidal_deposits
-			do_remove_secure_mining_deposits
-			do_remove_surface_mining_deposits
-			do_remove_cheap_mining_deposits
-			do_remove_nature_farming_deposits
-			do_remove_exotic_farming_deposits
-			do_remove_ocean_farming_deposits
-			do_remove_chemistry_deposits
-			do_remove_gas_deposits
-			do_remove_crystal_deposits
-			do_remove_nature_reserve_deposits
-			do_remove_tourism_deposits
-			do_remove_research_complex_deposits
-			do_remove_tibanna_deposits
-			do_remove_kyber_deposits
 			#Other Effects
 			change_pc = pc_city
+      reroll_districts = yes
 			set_planet_entity = {
 				entity = "city_planet_entity"
 				graphical_culture = owner

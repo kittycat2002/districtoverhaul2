@@ -35,3 +35,9 @@ on_colonized = {
 		districtoverhaulai.01
 	}
 }
+
+on_terraforming_complete = {
+  events = {
+    districtoverhaulspawn.03
+  }
+}
